@@ -85,12 +85,4 @@ bash scripts/run_genpoints_colmap.sh
 
 # 6.Acknowledgements
 
-Thanks excellent work [COLMAP](https://github.com/colmap/colmap).
-
-Thanks to [Xiaodong Gu](https://github.com/gxd1994) for his excellent work [Cascade-Stereo](https://github.com/alibaba/cascade-stereo).
-
-Thanks to [kwea123](https://github.com/kwea123) for his excellent work [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl).
-
-Thanks to [Songyou Peng](https://github.com/pengsongyou) for his excellent work [Convolutional Occupancy Networks](https://github.com/autonomousvision/convolutional_occupancy_networks).
-
-Finally, thanks to [Yao Yao](https://github.com/YoYo000) for his excellent work [MVSNet](https://github.com/YoYo000/MVSNet) for its contribution to deep learning deep reconstruction.
+Thanks excellent work [COLMAP](https://github.com/colmap/colmap).Thanks to [Xiaodong Gu](https://github.com/gxd1994) for his excellent work [Cascade-Stereo](https://github.com/alibaba/cascade-stereo).Thanks to [kwea123](https://github.com/kwea123) for his excellent work [CasMVSNet_pl](https://github.com/kwea123/CasMVSNet_pl).Thanks to [Songyou Peng](https://github.com/pengsongyou) for his excellent work [Convolutional Occupancy Networks](https://github.com/autonomousvision/convolutional_occupancy_networks).Finally, thanks to [Yao Yao](https://github.com/YoYo000) for his excellent work [MVSNet](https://github.com/YoYo000/MVSNet) for its contribution to deep learning deep reconstruction.
