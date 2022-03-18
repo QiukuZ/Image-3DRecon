@@ -4,9 +4,9 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--scenedir', type=str,
                     help='input scene directory')
-parser.add_argument('--undistorter_image', type=bool, default=True)
-parser.add_argument('--patch_match', type=bool, default=True)
-parser.add_argument('--stereo_fusion', type=bool, default=True)
+parser.add_argument('--undistorter_image', default='False', action='store_true')
+parser.add_argument('--patch_match', default='False', action='store_true')
+parser.add_argument('--stereo_fusion', default='False', action='store_true')
 
 if __name__ == '__main__':
     args = parser.parse_args()
@@ -18,8 +18,11 @@ if __name__ == '__main__':
         os.mkdir(densedir)
     
     undistorter_image = args.undistorter_image
-    patch_match = args.patch_match
-    stereo_fusion = args.stereo_fusion
+    # patch_match = args.patch_match
+    # stereo_fusion = args.stereo_fusion
+    patch_match = False
+    stereo_fusion = False
+
     # Undistorter image
     if undistorter_image:
         image_path = os.path.join(scenedir, "images")
