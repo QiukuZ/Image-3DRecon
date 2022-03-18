@@ -44,7 +44,7 @@ Note: Before converting the colmap results, you need make sure that images are u
 
 ### **[CasMVSNet-Stereo](https://github.com/alibaba/cascade-stereo)**
 
-Use CasMVSNet to generate depth map:
+Use CasMVSNet to generate depth map, [pretrained model download](https://virutalbuy-public.oss-cn-hangzhou.aliyuncs.com/share/cascade-stereo/CasMVSNet/48_32_8-4-2-1_dlossw-0.5-1.0-2.0/casmvsnet.ckpt) here.
 
 ```shell
 python test.py --dataset=general_eval --batch_size=1 --testpath_single_scene=xxx/casmvsnet --loadckpt=xxx/casmvsnet.ckpt --testlist=all --outdir=xxx/mvs --interval_scale=1.06
